@@ -1,3 +1,3 @@
 FROM archlinux:latest
 
-RUN pacman -Syu base-devel idris clang
+RUN pacman -Syu --noconfirm base-devel idris clang
