@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN pacman -Syu --noconfirm --needed base-devel idris clang git
+RUN pacman -Syu --noconfirm --needed base-devel idris clang git libx11
 
 RUN mkdir /home/build
 RUN chgrp nobody /home/build
